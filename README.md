@@ -1,30 +1,44 @@
-# Awesome Operating System & Browser Compatibility Matrix [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of top Operating System and Browser Compatibility Matrix platforms, continuous testing clouds, and open-source datasets for tracking browser feature support and executing cross-browser automated tests.
-> 🌟 Star this repo if you find it useful! 🌟
+<img src="./assets/banner.svg" alt="Awesome OS and Browser Compatibility Matrix Banner" width="100%" />
+
+# 🌐 Awesome Operating System & Browser Compatibility Matrix 🚀
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+<p align="center">
+  <b>A curated list of top Operating System and Browser Compatibility Matrix platforms, continuous testing clouds, and open-source datasets for tracking browser feature support and executing cross-browser automated tests.</b><br/>
+  ✨ <i>Star this repo if you find it useful!</i> ✨
+</p>
+
+</div>
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software & Datasets](#-open-source-software--datasets)
-  - [1. Playwright](#1-playwright-)
-  - [2. Cypress](#2-cypress-)
-  - [3. Selenium](#3-selenium-)
-  - [4. Browserslist](#4-browserslist-)
-  - [5. WebdriverIO](#5-webdriverio-)
-  - [6. Docker-Selenium](#6-docker-selenium-)
-  - [7. Web Platform Tests (WPT)](#7-web-platform-tests-wpt-)
-  - [8. Can I Use (Raw Data)](#8-can-i-use-raw-data-)
-  - [9. MDN Browser Compat Data (BCD)](#9-mdn-browser-compat-data-bcd-)
-  - [10. Selenoid](#10-selenoid-)
-  - [11. Web Features](#11-web-features-)
-  - [12. browser-compat-mcp-server](#12-browser-compat-mcp-server-)
-- [Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software & Datasets](#-open-source-software--datasets)
+  - [1. 🎭 Playwright](#1--playwright-)
+  - [2. 🌲 Cypress](#2--cypress-)
+  - [3. 🧪 Selenium](#3--selenium-)
+  - [4. 🦔 Browserslist](#4--browserslist-)
+  - [5. 🤖 WebdriverIO](#5--webdriverio-)
+  - [6. 🐳 Docker-Selenium](#6--docker-selenium-)
+  - [7. 🌐 Web Platform Tests (WPT)](#7--web-platform-tests-wpt-)
+  - [8. 📊 Can I Use (Raw Data)](#8--can-i-use-raw-data-)
+  - [9. 📚 MDN Browser Compat Data (BCD)](#9--mdn-browser-compat-data-bcd-)
+  - [10. ⚡ Selenoid](#10--selenoid-)
+  - [11. 🧭 Web Features](#11--web-features-)
+  - [12. 🔌 browser-compat-mcp-server](#12--browser-compat-mcp-server-)
+- [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -40,7 +54,7 @@ The sector is **moderately fragmented**: while commercial device clouds like Bro
 
 Commercial, cloud-hosted Operating System and Browser Compatibility Matrix and test execution platforms, ranked in descending order by company valuation / scale.
 
-| Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limits | Key Capabilities & Matrix Coverage |
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 🔍 Key Capabilities & Matrix Coverage |
 |:---|:---|:---|:---|:---|
 | **[BrowserStack](https://www.browserstack.com/)** | **~$4.0B Valuation** (~$230M+ ARR) | **$12.50 / month** (billed annually, Desktop Web Live) | **Free Trial:** 30 min Live desktop/mobile web testing (1 min/device limit), 100 min automated app testing, 100 screenshots | 3,000+ real desktop browsers (Chrome, Firefox, Safari, Edge) across Windows & macOS, 15+ iOS/Android real device generations. |
 | **[Sauce Labs](https://saucelabs.com/)** | **~$613M Valuation** (~$92M ARR) | **$39 / month** (billed annually, Live Testing, 1 parallel) | **Free Trial (28 days):** 60 min automated & live testing total, 3 parallel virtual machines, 50 Sauce AI queries | Configurator for Selenium & Appium capabilities; thousands of browser/OS combinations, 1,700+ emulators/simulators, 7,500+ real devices. |
@@ -53,62 +67,62 @@ Commercial, cloud-hosted Operating System and Browser Compatibility Matrix and t
 
 Self-hosted test execution grids, browser automation frameworks, and canonical compatibility datasets. Sorted in descending order by GitHub stargazers.
 
-### 1. [Playwright](https://github.com/microsoft/playwright) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)
+### 1. 🎭 [Playwright](https://github.com/microsoft/playwright) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)
 - **Stack:** TypeScript / C# / Python / Java | **License:** Apache 2.0
 - **Overview:** Modern end-to-end framework enabling reliable cross-browser automation across Chromium, WebKit, and Firefox on Windows, macOS, Linux, and headless environments.
 - **Best for:** Native cross-browser web testing with auto-wait, network interception, and multi-tab orchestration.
 
-### 2. [Cypress](https://github.com/cypress-io/cypress) [![GitHub Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)
+### 2. 🌲 [Cypress](https://github.com/cypress-io/cypress) [![GitHub Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)
 - **Stack:** JavaScript / TypeScript | **License:** MIT
 - **Overview:** Fast, easy, and reliable testing framework that runs directly inside browser runtimes (Chrome, Firefox, Edge, Electron) with visual time-travel debugging.
 - **Best for:** Front-end component and end-to-end testing with real-time browser reloads and DOM snapshots.
 
-### 3. [Selenium](https://github.com/SeleniumHQ/selenium) [![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)
+### 3. 🧪 [Selenium](https://github.com/SeleniumHQ/selenium) [![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)
 - **Stack:** Java / Python / C# / JavaScript / Ruby | **License:** Apache 2.0
 - **Overview:** The foundational W3C-standard browser automation framework supporting distributed Grid orchestration across all operating systems and browsers.
 - **Best for:** Enterprise-wide cross-browser matrix orchestration and legacy system compatibility across distributed nodes.
 
-### 4. [Browserslist](https://github.com/browserslist/browserslist) [![GitHub Stars](https://img.shields.io/github/stars/browserslist/browserslist?style=social&color=white)](https://github.com/browserslist/browserslist/stargazers)
+### 4. 🦔 [Browserslist](https://github.com/browserslist/browserslist) [![GitHub Stars](https://img.shields.io/github/stars/browserslist/browserslist?style=social&color=white)](https://github.com/browserslist/browserslist/stargazers)
 - **Stack:** JavaScript / Node.js | **License:** MIT
 - **Overview:** The industry standard for sharing target browser and Node.js version configurations between front-end tools like Autoprefixer, Babel, ESLint, PostCSS, and Webpack using Can I Use queries.
 - **Best for:** Build pipeline targeting and automated transpilation rules matching defined browser support tiers.
 
-### 5. [WebdriverIO](https://github.com/webdriverio/webdriverio) [![GitHub Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)
+### 5. 🤖 [WebdriverIO](https://github.com/webdriverio/webdriverio) [![GitHub Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)
 - **Stack:** TypeScript / Node.js | **License:** MIT
 - **Overview:** Extensible next-generation test automation framework for Node.js based on WebDriver and WebDriver BiDi protocols, supporting web browsers and mobile native apps.
 - **Best for:** Flexible testing across desktop browsers, real mobile devices, and cloud grids with rich plugin architecture.
 
-### 6. [Docker-Selenium](https://github.com/SeleniumHQ/docker-selenium) [![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/docker-selenium?style=social&color=white)](https://github.com/SeleniumHQ/docker-selenium/stargazers)
+### 6. 🐳 [Docker-Selenium](https://github.com/SeleniumHQ/docker-selenium) [![GitHub Stars](https://img.shields.io/github/stars/SeleniumHQ/docker-selenium?style=social&color=white)](https://github.com/SeleniumHQ/docker-selenium/stargazers)
 - **Stack:** Docker / Shell / Python | **License:** Apache 2.0
 - **Overview:** Official containerized Selenium Grid images running standalone Chrome, Firefox, and Edge browsers, with video recording and live VNC observation.
 - **Best for:** Self-hosted scalable browser execution clusters on Docker, Kubernetes, or CI pipelines.
 
-### 7. [Web Platform Tests (WPT)](https://github.com/web-platform-tests/wpt) [![GitHub Stars](https://img.shields.io/github/stars/web-platform-tests/wpt?style=social&color=white)](https://github.com/web-platform-tests/wpt/stargazers)
+### 7. 🌐 [Web Platform Tests (WPT)](https://github.com/web-platform-tests/wpt) [![GitHub Stars](https://img.shields.io/github/stars/web-platform-tests/wpt?style=social&color=white)](https://github.com/web-platform-tests/wpt/stargazers)
 - **Stack:** Python / HTML / JavaScript | **License:** W3C 3-Clause BSD
 - **Overview:** The cross-browser test suite used by all major browser vendors (Apple, Google, Microsoft, Mozilla) to verify conformance with WHATWG and W3C web standards.
 - **Best for:** Verifying strict standards compliance and browser implementation parity across web platform specifications.
 
-### 8. [Can I Use (Raw Data)](https://github.com/Fyrd/caniuse) [![GitHub Stars](https://img.shields.io/github/stars/Fyrd/caniuse?style=social&color=white)](https://github.com/Fyrd/caniuse/stargazers)
+### 8. 📊 [Can I Use (Raw Data)](https://github.com/Fyrd/caniuse) [![GitHub Stars](https://img.shields.io/github/stars/Fyrd/caniuse?style=social&color=white)](https://github.com/Fyrd/caniuse/stargazers)
 - **Stack:** JSON | **License:** CC BY 4.0
 - **Overview:** Raw JSON database powering caniuse.com, providing feature-by-feature browser support tables with flags, usage statistics, and compatibility caveats.
 - **Best for:** Integrating feature support lookup, polyfill requirements, and global browser share tables into build tools.
 
-### 9. [MDN Browser Compat Data (BCD)](https://github.com/mdn/browser-compat-data) [![GitHub Stars](https://img.shields.io/github/stars/mdn/browser-compat-data?style=social&color=white)](https://github.com/mdn/browser-compat-data/stargazers)
+### 9. 📚 [MDN Browser Compat Data (BCD)](https://github.com/mdn/browser-compat-data) [![GitHub Stars](https://img.shields.io/github/stars/mdn/browser-compat-data?style=social&color=white)](https://github.com/mdn/browser-compat-data/stargazers)
 - **Stack:** JSON / Node.js / TypeScript | **License:** CC0 1.0 (Public Domain)
 - **Overview:** The canonical open-source dataset for web compatibility, containing over 15,000 web platform features across CSS, HTML, JavaScript, Web APIs, and HTTP headers.
 - **Best for:** Machine-readable compatibility queries in IDEs (VS Code, WebStorm), linters, and documentation engines.
 
-### 10. [Selenoid](https://github.com/aerokube/selenoid) [![GitHub Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)
+### 10. ⚡ [Selenoid](https://github.com/aerokube/selenoid) [![GitHub Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)
 - **Stack:** Go / Docker | **License:** Apache 2.0
 - **Overview:** Blazing-fast, lightweight Go implementation of the Selenium Hub that spins up isolated browser sessions inside Docker containers on demand.
 - **Best for:** High-throughput, resource-efficient self-hosted browser grid infrastructure.
 
-### 11. [Web Features](https://github.com/web-platform-dx/web-features) [![GitHub Stars](https://img.shields.io/github/stars/web-platform-dx/web-features?style=social&color=white)](https://github.com/web-platform-dx/web-features/stargazers)
+### 11. 🧭 [Web Features](https://github.com/web-platform-dx/web-features) [![GitHub Stars](https://img.shields.io/github/stars/web-platform-dx/web-features?style=social&color=white)](https://github.com/web-platform-dx/web-features/stargazers)
 - **Stack:** YAML / TypeScript | **License:** CC0 1.0 (Public Domain)
 - **Overview:** WebDX Community Group data package establishing common identifiers and metadata for web platform features and their Baseline availability across browsers.
 - **Best for:** Grouping fine-grained BCD keys into consumer-facing features and evaluating Baseline support dates.
 
-### 12. [browser-compat-mcp-server](https://github.com/cyanheads/browser-compat-mcp-server) [![GitHub Stars](https://img.shields.io/github/stars/cyanheads/browser-compat-mcp-server?style=social&color=white)](https://github.com/cyanheads/browser-compat-mcp-server/stargazers)
+### 12. 🔌 [browser-compat-mcp-server](https://github.com/cyanheads/browser-compat-mcp-server) [![GitHub Stars](https://img.shields.io/github/stars/cyanheads/browser-compat-mcp-server?style=social&color=white)](https://github.com/cyanheads/browser-compat-mcp-server/stargazers)
 - **Stack:** TypeScript / MCP | **License:** MIT
 - **Overview:** Model Context Protocol (MCP) server providing offline compatibility data and Baseline status to AI coding assistants (Claude, Cursor) from BCD, web-features, and Can I Use.
 - **Best for:** AI agent workflows requiring local, deterministic web platform compatibility checks without runtime API dependencies.
@@ -117,7 +131,7 @@ Self-hosted test execution grids, browser automation frameworks, and canonical c
 
 ## 📊 Feature Comparison at a Glance
 
-| Tool / Platform | Category | License / Type | Primary Focus | OS & Device Coverage | Feature Compatibility Data | Self-Hosted |
+| 🛠️ Tool / Platform | 🏷️ Category | 📜 License / Type | 🎯 Primary Focus | 💻 OS & Device Coverage | 📑 Feature Compatibility Data | 🏠 Self-Hosted |
 |:---|:---|:---|:---|:---|:---|:---|
 | **BrowserStack** | Commercial Cloud | Proprietary | Real Browser & Device Cloud | Windows, macOS, iOS, Android | ❌ (Capability ranges) | ❌ |
 | **Sauce Labs** | Commercial Cloud | Proprietary | Continuous Testing Cloud | Windows, macOS, iOS, Android | ❌ (Capability ranges) | ❌ |
@@ -135,6 +149,24 @@ Self-hosted test execution grids, browser automation frameworks, and canonical c
 | **Selenoid** | Open Source | Apache 2.0 | Lightweight Go Browser Grid | Linux / Docker / K8s | ❌ | ✅ |
 | **Web Features** | Open Source | CC0 1.0 | WebDX Baseline Definitions | Desktop & Mobile Browsers | ✅ (Baseline status & feature sets) | ✅ |
 | **browser-compat-mcp** | Open Source | MIT | AI Agent MCP Compatibility Server | In-Process / Offline | ✅ (BCD + Baseline + Can I Use) | ✅ |
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Operating-System-Browser-Compatibility-Matrix&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Operating-System-Browser-Compatibility-Matrix&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this list! If you find this resource helpful for tracking compatibility matrices or streamlining your continuous testing pipelines, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** it with your developer and QA communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new curated additions, check out my [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is deeply appreciated! 🙌
 
 ---
 
